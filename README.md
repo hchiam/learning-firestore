@@ -2,6 +2,8 @@
 
 Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
+Based on this tutorial: <https://codeartistry.io/the-firestore-2020-tutorial>
+
 Firestore = DB != Firebase DB.
 
 Realtime. NoSQL (= on big JS object, no schema). Scalable.
