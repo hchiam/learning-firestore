@@ -50,6 +50,20 @@ Collections -> [Documents {id:doc}] -> Fields {key:value}
 - `.limit(3)`
 - `.orderBy('created', 'desc')`
 
+## Quick example
+
+```bash
+git clone https://github.com/hchiam/learning-firestore.git
+cd learning-firestore/test-firebase
+yarn # or npm install
+```
+
+and then fill in necessary data in `var firebaseConfig` and then run this:
+
+```bash
+node firebase.js
+```
+
 ## Setup
 
 1. <https://firebase.google.com/>
@@ -75,19 +89,20 @@ Collections -> [Documents {id:doc}] -> Fields {key:value}
 
    ```js
    var firebaseConfig = {
+     // get this info from Project Overview --> Project settings
      apiKey: "L0ngA1ph4Num3r1c5tr1ng",
      authDomain: "projectid.firebaseapp.com",
      databaseURL: "https://projectid.firebaseio.com",
      projectId: "projectid",
      storageBucket: "projectid.appspot.com",
-     messagingSenderId: "0123456789",
+     messagingSenderId: "0123456789", // project number?
      appId: "1:01234567990:web:123abc456def789",
    };
 
    firebase.initializeApp(firebaseConfig);
    ```
 
-7. console -> 'Database' tab -> create database
+7. console -> 'Database' tab -> create database (or 'Cloud Firestore' tab --> create database)
 8. For testing only, start in test mode and enable all reads and writes.
 9. start a collection (and enter required info and a first document in the collection)
    - To actually create a sub-collection, you have to create at least 1 doc in it.
