@@ -278,3 +278,10 @@ collection.where("count", ">=", 1).limit(3);
 collection.where("count", ">=", 1).orderBy("created", "desc").limit(3);
 // note: remember to call .orderBy() BEFORE calling .limit()
 ```
+
+## Further learning
+
+Firebase auth:
+
+- General intro: <https://firebase.google.com/docs/auth>
+- Easy basic web auth: <https://firebase.google.com/docs/auth/web/firebaseui>
