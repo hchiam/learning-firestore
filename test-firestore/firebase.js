@@ -1,4 +1,4 @@
-// this this file out by running this in bash CLI: node firebase.js
+// try this file out by running this in bash CLI: node firebase.js
 
 // import firebase from "firebase/app";
 // import "firebase/firestore";
@@ -6,8 +6,14 @@
 const firebase = require("firebase/app");
 require("firebase/firestore");
 
+require("dotenv").config(); // create a .env file with the other info you need
 var firebaseConfig = {
-  // (fill in necessary data as per notes)
+  // apiKey: process.env.apiKey,
+  // authDomain: process.env.authDomain,
+  // databaseURL: process.env.databaseURL,
+  projectId: process.env.projectId,
+  // storageBucket: process.env.storageBucket,
+  // messagingSenderId: process.env.messagingSenderId,
 };
 
 firebase.initializeApp(firebaseConfig);

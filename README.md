@@ -58,7 +58,18 @@ cd learning-firestore/test-firebase
 yarn # or npm install
 ```
 
-and then fill in necessary data in `var firebaseConfig` and then run this:
+create a `.env` file:
+
+```text
+apiKey=
+authDomain=
+databaseURL=
+projectId=your-project-id-here-is-all-you-need
+storageBucket=
+messagingSenderId=
+```
+
+so that you can fill in necessary data in `var firebaseConfig` and then run this:
 
 ```bash
 node firebase.js
