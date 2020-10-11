@@ -52,10 +52,10 @@ Collections -> [Documents {id:doc}] -> Fields {key:value}
 
 ## Quick example
 
+Triple-click to select all:
+
 ```bash
-git clone https://github.com/hchiam/learning-firestore.git
-cd learning-firestore/test-firebase
-yarn # or npm install
+git clone https://github.com/hchiam/learning-firestore.git && cd learning-firestore/test-firebase && yarn # or npm install
 ```
 
 create a `.env` file: (it'll automatically be used to fill in necessary data in `var firebaseConfig` via `process.env.[...]`)
