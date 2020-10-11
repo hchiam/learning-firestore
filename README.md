@@ -1,4 +1,4 @@
-# Learning Google Firebase [**_Firestore_**](https://firebase.google.com)
+# Learning Google [Firebase](https://firebase.google.com) **_Firestore_**
 
 Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
