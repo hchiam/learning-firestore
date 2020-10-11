@@ -118,6 +118,8 @@ node firebase.js
 9. start a collection (and enter required info and a first document in the collection)
    - To actually create a sub-collection, you have to create at least 1 doc in it.
 
+## Usage examples
+
 I might have a tiny bit of [React](https://github.com/hchiam/learning-reactjs) in this repo, but it's only used as an example. You can see another example in a repo with [Vue + Firebase](https://github.com/hchiam/vuejsfirebase/blob/master/src/App.vue).
 
 ```jsx
