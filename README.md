@@ -1,4 +1,4 @@
-# Learning Google Firebase **_Firestore_**
+# Learning Google Firebase [**_Firestore_**](https://firebase.google.com)
 
 Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
@@ -77,7 +77,7 @@ node firebase.js
 
 ## Setup
 
-1. <https://firebase.google.com/>
+1. <https://firebase.google.com>
 2. console
 3. create project
 4. project dashboard -> code button
