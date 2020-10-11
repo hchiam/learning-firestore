@@ -52,7 +52,7 @@ Collections -> [Documents {id:doc}] -> Fields {key:value}
 
 ## Quick example
 
-Triple-click to select all:
+Triple-click to select all: (and run it)
 
 ```bash
 git clone https://github.com/hchiam/learning-firestore.git && cd learning-firestore/test-firebase && yarn # or npm install
