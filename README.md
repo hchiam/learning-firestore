@@ -287,3 +287,4 @@ Firebase auth:
 
 - General intro: <https://firebase.google.com/docs/auth>
 - Easy basic web auth: <https://firebase.google.com/docs/auth/web/firebaseui>
+- Read/write/etc rules based on auth/not: <https://firebase.google.com/docs/firestore/security/rules-conditions>
