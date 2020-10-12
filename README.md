@@ -326,8 +326,8 @@ collection
       ...doc.data(),
     }));
     if (data.length) {
-      const fullLink = data[0]["some other field"];
-      callback(fullLink); // go to it
+      const desiredValue = data[0]["some other field"];
+      callback(desiredValue);
     }
   });
 ```
