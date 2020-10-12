@@ -288,3 +288,19 @@ Firebase auth:
 - General intro: <https://firebase.google.com/docs/auth>
 - Easy basic web auth: <https://firebase.google.com/docs/auth/web/firebaseui>
 - Read/write/etc rules based on auth/not: <https://firebase.google.com/docs/firestore/security/rules-conditions>
+
+Example:
+
+```js
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /books/{document=**} {
+      allow write: if request.auth != null;
+      allow read: if request.query.limit == 1;
+      // allow list: if request.query.limit == 1;
+      // allow get;
+    }
+  }
+}
+```
