@@ -304,3 +304,30 @@ service cloud.firestore {
   }
 }
 ```
+
+So that the client can only get one at a time, not list the whole collection:
+
+```js
+const firebaseConfig = {
+  projectId: "...",
+};
+
+firebase.initializeApp(firebaseConfig);
+
+const db = firebase.firestore();
+const collection = db.collection("collectionName");
+collection
+  .where("some field", "==", "some value")
+  .limit(1) // <-- !!!
+  .get() // (call this after the where's and limit)
+  .then((snapshot) => {
+    const data = snapshot.docs.map((doc) => ({
+      id: doc.id,
+      ...doc.data(),
+    }));
+    if (data.length) {
+      const fullLink = data[0]["some other field"];
+      callback(fullLink); // go to it
+    }
+  });
+```
