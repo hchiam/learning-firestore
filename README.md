@@ -331,3 +331,7 @@ collection
     }
   });
 ```
+
+## Lots more to learn about the broader Firebase
+
+<https://css-tricks.com/firebase-crash-course>
