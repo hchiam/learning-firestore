@@ -334,4 +334,6 @@ collection
 
 ## Lots more to learn about the broader Firebase
 
+<https://github.com/hchiam/learning-firebase-local-emulator>
+
 <https://css-tricks.com/firebase-crash-course>
