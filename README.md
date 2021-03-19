@@ -289,8 +289,8 @@ Firebase auth:
 - Easy basic web auth: <https://firebase.google.com/docs/auth/web/firebaseui>
 - Read/write/etc rules based on auth/not: <https://firebase.google.com/docs/firestore/security/rules-conditions>
   - and based on <https://firebase.google.com/docs/firestore/security/rules-structure#granular_operations>
-    - write = create, update, delete
-    - read = get, list
+    - `write` = `create`, `update`, `delete`
+    - `read` = `get`, list`
 
 Example:
 
