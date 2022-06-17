@@ -6,7 +6,7 @@ Based on this tutorial: <https://codeartistry.io/the-firestore-2020-tutorial>
 
 Firestore = DB != Firebase DB.
 
-Realtime. NoSQL (= on big JS object, no schema). Scalable.
+Realtime. NoSQL (= one big JS object, no schema). Scalable.
 
 Collections -> Documents -> Fields -> KVP
 
