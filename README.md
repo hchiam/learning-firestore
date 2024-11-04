@@ -339,4 +339,6 @@ collection
 
 <https://github.com/hchiam/learning-firebase-local-emulator>
 
+<https://github.com/hchiam/learning-firebase-hosting>
+
 <https://css-tricks.com/firebase-crash-course>
